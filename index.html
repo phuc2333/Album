@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="fontawesome-free-5.13.0-web/css/all.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Bootstrap</title>
+</head>
+
+<body>
+  <a name="top"></a>
+    <!-- This is header -->
+    <header>
+        <div class="fixed-top">
+            <div class="collapse" id="navbarToggleExternalContent">
+                <div class="bg-dark p-4">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-8 col-md-7 ">
+                                <h5 class="text-white h4">About</h5>
+                                <span class="text-muted">Add some information about the album below, the author, or any
+                                    other background context.
+                                    Make it a few sentences long so folks can pick up some informative tidbits. Then,
+                                    link
+                                    them off to some social networking sites or contact information. </span>
+
+                            </div>
+                            <div class="col-sm-4 offset-md-1">
+                                <h5 class="text-white h4">Connact</h5>
+                                <span class="text-muted">
+                                    <a class="text-white" href="#">Follow on Twitter</a><br>
+                                    <a class="text-white" href="#"> Like on Facebook </a><br>
+                                    <a class="text-white" href="#"> Email me</a></span>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <nav class="navbar navbar-dark bg-dark">
+                <div class="container">
+                    <div class="text-white content-left">
+                        <i class="fas fa-camera"></i>
+                        <strong>Album</strong>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- This is main -->
+    <main>
+        <section class="container text-center main-banner" style="max-width: 530px; ">
+            <h1>Album example</h1>
+            <p class="font-weight-light" style="font-size: 1.2rem;">Something short and leading about the collection below—its contents, the
+                creator, etc. Make it short and
+                sweet, but not too short so folks don’t simply skip over it entirely.</p>
+            <button type="button" class="btn btn-primary">Main call to action</button>
+            <button type="button" class="btn btn-secondary">Secondary action</button>
+        </section>
+        <section class="main-content bg-light text-dark" style="padding:6rem 0;">
+            <div class="container ">
+                <div class="row content-row">
+                    <div class="col-md-4 p-4 ">
+                        <div class="card">
+                         <!-- ---video---- -->
+                         <video width="100%" controls autoplay>
+                          <source src="video/Có Chắc Yêu Là Đây Remix - @Anh Khoa Cover (Nhật Đoàn Remix).mp4" type="video/mp4">
+                          
+                        </video>
+
+                         <!-- ---video--- -->
+                            <div class="card-body">
+                              <h5 class="card-title">Có chắc yêu là đây</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <div class="d-flex justify-content-between">
+                                <div class="btn-group" role="group">
+                                    <button type="button" class="btn btn-outline-secondary btn-sm">Like</button>
+                                    <button type="button" class="btn btn-outline-secondary btn-sm">Sub</button>
+                                  </div>
+                                  <span>9 min</span>
+                              </div>
+                             
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-md-4 p-4 ">
+                        <!-- ---video---- -->
+                        <video width="100%" controls>
+                          <source src="video/Giới thiệu TRƯỜNG ĐẠI HỌC ĐIỆN LỰC - VTV3 - Ngày 03-07-2020.mp4" type="video/mp4">
+                        </video>
+                            <div class="card-body">
+                              <h5 class="card-title">Đại học điện lực</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <div class="d-flex justify-content-between">
+                                <div class="btn-group" role="group">
+                                    <button type="button" class="btn btn-outline-secondary btn-sm">Like</button>
+                                    <button type="button" class="btn btn-outline-secondary btn-sm">Sub</button>
+                                  </div>
+                                  <span>9 min</span>
+                              </div>
+                            </div>
+                          </div>
+                    <div class="col-md-4 p-4">
+                        <div class="card" >
+                          <!-- ---video---- -->
+                        <video width="100%" controls>
+                          <source src="video/Nhạc Chill 2020 - Nhạc Này Chill Phết - Những Bản Lofi Việt Nhẹ Nhàng Cực Chill.mp4" type="video/mp4">
+                        </video>
+                            <div class="card-body">
+                              <h5 class="card-title">Nhạc chill</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <div class="d-flex justify-content-between">
+                                <div class="btn-group" role="group">
+                                    <button type="button" class="btn btn-outline-secondary btn-sm">Like</button>
+                                    <button type="button" class="btn btn-outline-secondary btn-sm">Sub</button>
+                                  </div>
+                                  <span>9 min</span>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-md-4 p-4">
+                        <div class="card">
+                          <!-- ---video---- -->
+                        <video width="100%" controls>
+                          <source src="video/Như Những Phút Ban Đầu - Hoài Lâm - Lyric Video -- thđ.mp4" type="video/mp4">
+                        </video>
+
+                            <div class="card-body">
+                              <h5 class="card-title">Như Những Phút Ban Đầu</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <div class="d-flex justify-content-between">
+                                <div class="btn-group" role="group">
+                                    <button type="button" class="btn btn-outline-secondary btn-sm">Like</button>
+                                    <button type="button" class="btn btn-outline-secondary btn-sm">Sub</button>
+                                  </div>
+                                  <span>9 min</span>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+
+                    <div class="col-md-4 p-4">
+                        
+                            <div class="card-body">
+                                <!-- ---video---- -->
+                        <video width="100%" controls>
+                          <source src="video/Nhạc phim Huyền thoại sân cỏ GGO.mp4" type="video/mp4">
+                        </video>
+                              <h5 class="card-title">Huyền thoại sân cỏ GGO</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <div class="d-flex justify-content-between">
+                                <div class="btn-group" role="group">
+                                    <button type="button" class="btn btn-outline-secondary btn-sm">Like</button>
+                                    <button type="button" class="btn btn-outline-secondary btn-sm">Sub</button>
+                                  </div>
+                                  <span>9 min</span>
+                              </div>
+                            </div>
+                          </div>
+                    
+
+                    <div class="col-md-4 p-4">
+                            <div class="card-body">
+                                <!-- ---video---- -->
+                        <video width="100%" controls>
+                          <source src="video/Thêm 11 ca mắc COVID-19 có liên quan đến Bệnh viện Đà Nẵng - VTV24.mp4" type="video/mp4">
+                        </video>
+                              <h5 class="card-title">Covid-19</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <div class="d-flex justify-content-between">
+                                <div class="btn-group" role="group">
+                                    <button type="button" class="btn btn-outline-secondary btn-sm">Like</button>
+                                    <button type="button" class="btn btn-outline-secondary btn-sm">Sub</button>
+                                  </div>
+                                  <span>9 min</span>
+                              </div>
+                            </div>
+                          </div>
+                    <div class="col-md-4 p-4">
+                        <div class="card" >
+                             <!-- ---video---- -->
+                        <video width="100%" controls>
+                          <source src="video/Tin nhanh covid-19 chiều 30-7- Bệnh nhân 459 tại Hà Nội đã đi những đâu- - VTC14.mp4" type="video/mp4">
+                        </video>
+                            <div class="card-body">
+                              <h5 class="card-title">News-covid-19</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <div class="d-flex justify-content-between">
+                                <div class="btn-group" role="group">
+                                    <button type="button" class="btn btn-outline-secondary btn-sm">Like</button>
+                                    <button type="button" class="btn btn-outline-secondary btn-sm">Sub</button>
+                                  </div>
+                                  <span>9 min</span>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-md-4 p-4">
+                        <div class="card" >
+                                  <!-- ---video---- -->
+                                  <video width="100%" controls>
+                                    <source src="video/[Vietsub] Mang Chủng - Âm Khuyết Thi Thính - 芒種 - 音闕詩聽.mp4" type="video/mp4">
+                                  </video>
+                            <div class="card-body">
+                              <h5 class="card-title">Mang chủng</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <div class="d-flex justify-content-between">
+                                <div class="btn-group" role="group">
+                                    <button type="button" class="btn btn-outline-secondary btn-sm">Like</button>
+                                    <button type="button" class="btn btn-outline-secondary btn-sm">Sub</button>
+                                  </div>
+                                  <span>9 min</span>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-md-4 p-4">
+                        <div class="card" >
+                             <!-- ---video---- -->
+                        <video width="100%" controls>
+                          <source src="video/Bản Nhạc Cảm Động DORAEMON Không Ít Người Đã Suy Lòng (HAZY MOON).mp4" type="video/mp4">
+                        </video>
+                            <div class="card-body">
+                              <h5 class="card-title">Music Japan</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <div class="d-flex justify-content-between">
+                                <div class="btn-group" role="group">
+                                    <button type="button" class="btn btn-outline-secondary btn-sm">Like</button>
+                                    <button type="button" class="btn btn-outline-secondary btn-sm">Sub</button>
+                                  </div>
+                                  <span>9 min</span>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- This is footer -->
+    <footer>
+      <div class="container d-flex bd-highlight">
+        <p>Album example is © Bootstrap, but please download and customize it for yourself!
+
+          New to Bootstrap? <span class=" text-primary ">Visit the homepage</span> or read our <span class=" text-primary ">getting started guide.</span></p>
+          <span class=" text-primary " style="width: 892px;">
+            <div style="float: right;">
+              <a href="#top">Back to top</a> 
+            </div>
+            </span>
+      </div>
+     
+    </footer>
+</body>
+
+</html>

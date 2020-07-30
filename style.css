@@ -1,0 +1,15 @@
+.content-left{
+    font-size: 1.2rem;
+}
+main, .main-banner{
+    padding: 3rem 0;
+}
+
+@media screen and (min-width: 768px){
+    main, .main-banner{
+           padding: 5rem 0;   
+         }
+}
+footer{
+    padding-bottom: 4rem;
+}
